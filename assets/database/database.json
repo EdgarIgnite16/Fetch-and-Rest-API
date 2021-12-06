@@ -1,9 +1,0 @@
-{
-  "courses": [
-    {
-      "id": 1,
-      "name": "Kiến thức cơ bản cho người mới bắt đầu.",
-      "description": "Kiến thức dành cho người mới, không phân biệt cho các bạn theo Front-End, Back-End hay DevOps"
-    }
-  ]
-}
