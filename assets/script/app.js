@@ -54,12 +54,9 @@ function handlerCreateForm() {
     var createBtn = document.querySelector('#create');
     // khi click vào form tạo mới thì insert dữ liệu lên API Server
     createBtn.addEventListener('click', () => {
-        var nameVal = document.querySelector('#name').value;
-        var descriptionVal = document.querySelector('#description').value;
-        
         var formData = {
-            name: nameVal,
-            description: descriptionVal
+            name: document.querySelector('#name').value,
+            description: document.querySelector('#description').value
         };
 
         // truyền dữ liệu khởi tạo vào
